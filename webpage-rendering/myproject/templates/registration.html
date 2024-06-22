@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+    background-color: #c27aa3;
+}
+
+.mmain{
+   display: flex;
+   justify-content: center;
+   padding: 55px 0px;
+}
+.main{
+    background-color: white;
+    width: 34vw;
+    height: 40vw;
+    border-radius: 6px;
+}
+
+.main img{
+    width: 10vw;
+}
+
+.mainimg{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.box1{
+    width: 24vw;
+    height: 50px;
+    background-color: #a2e0a2;
+    margin: 10px auto;
+    padding: 4px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+
+.name{
+    padding: 6px 0px;
+}
+
+.span1{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+}
+
+.span1 span{
+    padding: 5px 40px;
+}
+
+.span2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.span2 input{
+    padding: 9px 58px 9px 7px;
+    gap: 10px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px 32px 0px 31px;
+    gap: 4px;
+    font-size: 20px;  
+}
+
+
+.email input{
+    padding: 10px 0px 10px 7px;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px 32px 0px 31px;
+    gap: 4px;
+    font-size: 20px;  
+}
+
+.date input{
+    padding: 10px 0px 10px 7px;
+    width: 8vw;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0px;
+}
+
+.submit input{
+    width: 5vw;
+    height: 2vw;
+    padding: 1px 12px;
+    padding: 2px 0px 2px 30px;
+    border-radius: 5px;
+    background-color: rgb(99, 246, 66);
+}
+    </style>  
+</head>
+<body>
+    <div class="mmain">
+    <div class="main">
+       <div class="mainimg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEeQ9EzynojG42lS3gV4q6QXmhMWcbof0m-Iyvx8hmAp_GP0FQOeNLLgNYMqur85ii_uk&usqp=CAU"  alt="">
+       </div>
+       <div class="box1">Online Ragistration</div>
+       <div class="name">
+        <div class="span1">
+            <span>first_Name</span>
+            <span>last_name</span>
+        </div>
+        <div class="span2">
+            <input type="text" placeholder="firstName">
+            <input type="text" placeholder="lastname">
+        </div>
+       </div>
+       <div class="email">
+        <div>Email_address</div>
+        <input type="text" placeholder="emailaddress">
+       </div>
+
+       <div class="email">
+        <div>Catagory(if available)</div>
+        <input type="text" placeholder="catagory">
+       </div>
+
+       <div class="email">
+        <div>Physical address</div>
+        <input type="text" placeholder="physical address">
+       </div>
+
+       <div class="date">
+        <div>Date of birth</div>
+        <input type="date" id="birthday" name="birthday">
+       </div>
+
+       <div class="submit">
+        <input type="text" placeholder="submit">
+       </div>
+    </div>
+</div>
+
+</body>
+</html>

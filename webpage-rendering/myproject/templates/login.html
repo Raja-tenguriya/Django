@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    background-color: #c23da3;
+}
+
+.main{
+    height: 30vw;
+    border-radius: 5px;
+    width: 26vw;
+    background-color: white;
+    padding: 25px 0px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.logbig{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    font-size: 45px;
+    font-family: sans-serif
+}
+.soption{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1px;
+}
+
+.soption span {
+    width: 4vw;
+    border: 1px solid rgb(197, 196, 196);
+    padding: 14px 50px;
+    border-radius: 3px;
+    font-size: 20px;
+
+} 
+
+.color {
+    background-color: #dd93cc;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 50px;
+}
+
+.middle input{
+    padding: 15px 10px 15px 20px;
+    border: 1px solid rgb(197, 196, 196);
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.middfor{
+   margin-top: -6px;
+   font-size: 17px;
+   color: #c23da3;
+}
+
+.login{
+    width: 18vw;
+    height: 25px;
+    background-color: #c23da3;
+    display: flex;
+    justify-content: center;
+    padding: 13px 8px;
+    margin-left: 52px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 4px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px 0px;
+    gap: 6px;
+}
+
+footer span{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.footcolor{
+    color: #c23da3;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="logbig">Login form</div>
+        <div class="soption">
+            <span class="color">Login</span>
+            <span>signup</span>
+        </div>
+        <div class="middle">
+            <input type="text" placeholder="Email Address">
+            <input type="text" placeholder="Password">
+            <div class="middfor">forgot Password?</div>
+        </div>
+        <div class="login">Login</div>
+        <footer>
+            <span>not a member?</span>
+            <span class="footcolor">signup now</span>
+        </footer>
+
+    </div>
+
+</body>
+</html>
